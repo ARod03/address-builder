@@ -52,7 +52,7 @@ public class AddressBuilder {
         stringBuilder.append(shippingAddress).append("\n");
         stringBuilder.append(shippingCity).append(", ").append(shippingState).append(" ").append(shippingZip);
 
-        //Display the full result with name, billing, and shipping address
+        //Display the full result with name, billing, and shipping address in sections
         System.out.println();
         System.out.println(stringBuilder.toString());
 
